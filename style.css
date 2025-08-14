@@ -1,0 +1,26 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+body {
+   background: linear-gradient( midnightblue, rgb(94, 210, 143), rgba(251, 59, 59, 0.552));
+   min-height: 100vh;
+}
+
+ul {
+    list-style-type: none;
+    color: rgb(0, 255, 17);
+    font-family:"Libertinus Sans", sans-serif;
+    font-size: 1.5rem;
+}
+
+.two {
+    display:grid;
+    justify-content: flex-end;
+}
+
+.two img {
+    max-width: 100%;
+    height: auto;
+    width: 300px;
+}
